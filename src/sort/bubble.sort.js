@@ -1,6 +1,6 @@
 /**
  * Sorts given `array` using optimized bubble sort algorithm.
- * @param array {Array}
+ * @param {Array} array - The array to sort.
  * @returns {Array}
  */
 const bubbleSort = (array) => {
