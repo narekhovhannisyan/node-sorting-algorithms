@@ -1,6 +1,6 @@
 /**
  * Sorts given `array` using optimized selection sort algorithm.
- * @param array {Array}
+ * @param {Array} array - The array to sort.
  * @returns {Array}
  */
 const selectionSort = (array) => {
