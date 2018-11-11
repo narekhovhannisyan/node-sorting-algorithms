@@ -1,6 +1,6 @@
 /**
  * Sorts given `array` using insertion sort algorithm.
- * @param array {Array}
+ * @param {Array} array - The array to sort.
  * @returns {Array}
  */
 const insertionSort = (array) => {
