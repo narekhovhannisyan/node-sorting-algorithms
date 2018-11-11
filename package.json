@@ -1,0 +1,23 @@
+{
+  "name": "sorting-algorithms",
+  "version": "0.0.1",
+  "description": "Popular sorting algorithms implemented in javascript.",
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narekhovhannisyan/node-sorting-algorithms.git"
+  },
+  "keywords": [
+    "sort",
+    "sorting",
+    "algorithm",
+    "javascript",
+    "node"
+  ],
+  "author": "Narek Hovhannisyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narekhovhannisyan/node-sorting-algorithms/issues"
+  },
+  "homepage": "https://github.com/narekhovhannisyan/node-sorting-algorithms#readme"
+}
