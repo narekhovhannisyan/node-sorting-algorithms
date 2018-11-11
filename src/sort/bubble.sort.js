@@ -1,5 +1,5 @@
 /**
- * Sorts given array using optimized bubble sort algorithm.
+ * Sorts given `array` using optimized bubble sort algorithm.
  * @param array {Array}
  * @returns {Array}
  */
