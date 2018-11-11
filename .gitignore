@@ -1,0 +1,5 @@
+# ignore Webstorm config files
+.idea
+
+# node modules
+node_modules
