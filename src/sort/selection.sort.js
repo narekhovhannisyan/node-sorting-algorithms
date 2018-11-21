@@ -8,7 +8,7 @@ const selectionSort = (array) => {
 
   let i = 0
   for (i; i <= arrayLength - 1; i++) {
-    let isPlaceChanged = false
+    let swapped = false
 
     let j = i + 1
     for (j; j <= arrayLength - 1; j++) {
@@ -16,12 +16,12 @@ const selectionSort = (array) => {
         array[j] = array[j] + array[i]
         array[i] = array[j] - array[i]
         array[j] = array[j] - array[i]
-        isPlaceChanged = true
+        swapped = true
       }
+    }
 
-      if (j === arrayLength - 1 && !isPlaceChanged) {
-        break
-      }
+    if (!swapped) {
+      break
     }
   }
 

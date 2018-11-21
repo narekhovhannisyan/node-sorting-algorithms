@@ -8,7 +8,7 @@ const bubbleSort = (array) => {
 
   let i = 0
   for (i; i <= arrayLength - 1; i++) {
-    let isPlaceChanged = false
+    let isSwapped = false
 
     let j = 0
     for (j; j <= arrayLength - 1; j++) {
@@ -16,12 +16,12 @@ const bubbleSort = (array) => {
         array[j] = array[j] + array[j + 1]
         array[j + 1] = array[j] - array[j + 1]
         array[j] = array[j] - array[j + 1]
-        isPlaceChanged = true
+        isSwapped = true
       }
+    }
 
-      if (j === arrayLength - 1 && !isPlaceChanged) {
-        break
-      }
+    if (!isSwapped) {
+      break
     }
   }
 
